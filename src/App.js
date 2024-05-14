@@ -4,20 +4,22 @@ function App() {
       <div class="container mx-auto">
         <div class="flex flex-row justify-between">
           <div class="flex flex-col w-1/2 gap-y-3">
-            <p class="text-2xl text-primary-yellow">Hello</p>
-            <h1 class="text-6xl text-primary-white">Who I am text</h1>
-            <p class="text-primary-white">
+            <p class="text-2xl text-primary-yellow font-semibold">Hello 👋</p>
+            <h1 class="text-6xl text-primary-white font-bold">Who I am text</h1>
+            <p class="text-primary-white fw-100">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commodo consequat.
             </p>
-            <button class="bg-primary-yellow hover:bg-blue-700 text-primary-black font-bold py-2 px-4">
+            <div> 
+            <button class="bg-primary-yellow hover:bg-blue-700 text-primary-black font-semibold py-2 px-4 mr-5 rounded">
               Download resume
             </button>
-            <link href="#" title="email"></link>
+            <a href="mailto:simona.hriscu06+job@gmail.com" class="text-primary-white underline font-light underline-offset-4">Email me</a>
+            </div>
           </div>
-          <h1 class="text-6xl font-white">text 2</h1>
+          {/* <h1 class="text-6xl font-white">text 2</h1> */}
         </div>
       </div>
     </section>
