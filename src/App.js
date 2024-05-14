@@ -9,18 +9,28 @@ function App() {
               I'm Simona Hriscu
             </h1>
             <p class="text-primary-white fw-100">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              Dynamic and creative strategist, seamlessly blending a passion for
+              technology with insights gained from a law degree. With a knack
+              for turning ideas into captivating digital experiences and an
+              understanding of legal principles, I bring a unique perspective to
+              crafting interfaces that leave a lasting impact.
             </p>
             <div>
-              <button class="bg-primary-yellow hover:bg-blue-700 text-primary-black font-semibold py-2 px-4 mr-5 rounded">
+              <button
+                class="bg-primary-yellow hover:bg-blue-700 text-primary-black  hover:text-primary-black/75 font-semibold py-2 px-4 mr-5 rounded"
+                onClick={() =>
+                  window.open(
+                    "https://drive.google.com/file/d/18uE44SHTD_OogpjWAHFyPGcx0XHZxNIU/view?usp=sharing",
+                    "_blank",
+                    "noreferrer"
+                  )
+                }
+              >
                 Download resume
               </button>
               <a
                 href="mailto:simona.hriscu06+job@gmail.com"
-                class="text-primary-white underline font-light underline-offset-4 whitespace-nowrap"
+                class="text-primary-white underline font-light underline-offset-4 whitespace-nowrap hover:text-primary-yellow"
               >
                 Email me
               </a>
