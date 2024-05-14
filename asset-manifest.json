@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/SimonaHriscu/portfolio/static/css/main.3978f1c1.css",
-    "main.js": "/SimonaHriscu/portfolio/static/js/main.54eea3af.js",
-    "static/js/453.1407b060.chunk.js": "/SimonaHriscu/portfolio/static/js/453.1407b060.chunk.js",
-    "static/media/logo_github.svg": "/SimonaHriscu/portfolio/static/media/logo_github.e7e2bc8e3b94958f09a23ee8a5aaae7a.svg",
-    "index.html": "/SimonaHriscu/portfolio/index.html",
-    "static/media/logo_linkedin.svg": "/SimonaHriscu/portfolio/static/media/logo_linkedin.faf3c2bb025e870bc053c3d3d508e096.svg",
-    "main.3978f1c1.css.map": "/SimonaHriscu/portfolio/static/css/main.3978f1c1.css.map",
-    "main.54eea3af.js.map": "/SimonaHriscu/portfolio/static/js/main.54eea3af.js.map",
-    "453.1407b060.chunk.js.map": "/SimonaHriscu/portfolio/static/js/453.1407b060.chunk.js.map"
+    "main.css": "/portfolio/static/css/main.3978f1c1.css",
+    "main.js": "/portfolio/static/js/main.1f0009ae.js",
+    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/logo_github.svg": "/portfolio/static/media/logo_github.e7e2bc8e3b94958f09a23ee8a5aaae7a.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/logo_linkedin.svg": "/portfolio/static/media/logo_linkedin.faf3c2bb025e870bc053c3d3d508e096.svg",
+    "main.3978f1c1.css.map": "/portfolio/static/css/main.3978f1c1.css.map",
+    "main.1f0009ae.js.map": "/portfolio/static/js/main.1f0009ae.js.map",
+    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3978f1c1.css",
-    "static/js/main.54eea3af.js"
+    "static/js/main.1f0009ae.js"
   ]
 }
