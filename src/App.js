@@ -1,6 +1,7 @@
 import React from "react";
 import { ReactComponent as LinkedIn } from "./assets/logo_linkedin.svg";
 import { ReactComponent as GitHub } from "./assets/logo_github.svg";
+import simonaPic from "./assets/simona_pic.jpg";
 
 function App() {
   return (
@@ -21,13 +22,13 @@ function App() {
             target="_blank"
             rel="noreferrer"
           >
-          <GitHub class="stroke-primary-yellow hover:fill-primary-yellow size-6 p-1" />
+            <GitHub class="stroke-primary-yellow hover:fill-primary-yellow size-6 p-1" />
           </a>
         </div>
       </div>
       <section class="p-6 flex min-h-screen flex-col justify-center">
         <div class="container mx-auto">
-          <div class="flex flex-col items-center sm:flex-row sm:justify-between">
+          <div class="flex flex-col items-center sm:flex-row sm:justify-between gap-y-7 px-7">
             <div class="flex flex-col w-full sm:w-1/2 gap-y-3">
               <p class="text-2xl text-primary-yellow font-semibold">Hello 👋</p>
               <h1 class="text-6xl font-bold">I'm Simona Hriscu</h1>
@@ -59,7 +60,13 @@ function App() {
                 </a>
               </div>
             </div>
-            {/* <h1 class="text-6xl font-primary-white mt-4 sm:mt-0">text 2</h1> */}
+            <div class="flex w-full sm:w-1/2 justify-center">
+              <img
+                src={simonaPic}
+                alt="Simona"
+                class="w-auto max-h-96 rounded-full shadow-lg"
+              />
+            </div>
           </div>
         </div>
       </section>
